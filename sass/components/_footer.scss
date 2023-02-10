@@ -1,0 +1,46 @@
+.section-footer {
+    background: var(--title-color);
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+
+
+.footer-text {
+
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #E7E9FC;
+    max-width: 300px;
+    margin-top: 16px;
+}
+
+.footer-container {
+    display: flex;
+
+}
+
+.footer-form-input {
+    height: 40px;
+    width: 264px;
+    background-color: #2E2F42;
+    outline: none;
+    color: var(--white-color);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    padding-left: 16px;
+    margin-top: 16px;
+}
+
+.footer-form-icon {
+    margin-left: 16px;
+}
+
+.footer-form {
+    display: flex;
+}
+
+.footer-subscribe-form {
+    margin-left: 80px;
+}

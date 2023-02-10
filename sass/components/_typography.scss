@@ -1,0 +1,66 @@
+
+//       TITLE TYPOGRAPHY
+.hero-title {
+
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--white-color);
+    max-width: 500px;
+    margin: auto;
+
+}
+
+.title {
+    text-transform: capitalize;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--title-color);
+    margin-bottom: 72px;
+}
+
+.section-subtitle {
+
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--title-color);
+    margin-top: 8px;
+}
+
+.footer-title {
+    font-weight: 500;
+    line-height: 1.5;
+    color: var(--white-color);
+    letter-spacing: 0.02cm;
+    font-size: 16px;
+
+}
+
+.title-modal-form {
+    height: 24px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    margin-bottom: 14px;
+
+}
+
+// TEXT STYLES
+
+.section-text {
+
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+    margin-top: 8px;
+
+}
+

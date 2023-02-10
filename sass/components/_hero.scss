@@ -1,0 +1,20 @@
+.hero {
+    background-color: var(--title-color);
+    padding-top: 188px;
+    padding-bottom: 188px;
+}
+
+.hero-overlay {
+    max-width: 1440px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)),
+
+        url(../images/hero-image/people-office.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

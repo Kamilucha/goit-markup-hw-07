@@ -1,0 +1,179 @@
+//   MODAL BUTTON
+
+.modal-button {
+
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+
+    cursor: pointer;
+    color: var(--white-color);
+    display: flex;
+    background: var(--contrast-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px 32px;
+    margin: auto;
+    margin-top: 48px;
+    border: none;
+
+    transition: background-color var(--transition),
+                box-shadow var(--transition),
+                border-radius var(--transition);
+
+    &:hover,
+    &:focus {
+        background-color: #404BBF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+            }
+}
+
+
+
+// FILTER BUTTON PORTFOLIO
+
+
+.filter-btn {
+
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+
+    color: var(--contrast-color);
+    cursor: pointer;
+    border: none;
+
+    border-radius: 4px;
+    padding: 12px 24px;
+
+    transition: color var(--transition),
+        background-color var(--transition),
+        box-shadow var(--transition);
+
+    &:hover,
+    &:focus {
+        color: var(--white-color);
+        background-color: #404BBF;
+        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+            }
+}
+
+.filter-btn-list {
+    display: flex;
+    justify-content: center;
+    column-gap: 24px;
+
+}
+
+
+//  FOOTER SUBMIT BUTTON
+
+.footer-submit-button {
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    line-height: 1.5;
+
+    display: inline-flex;
+    align-items: center;
+    
+    height: 40px;
+    min-width: 165px;
+    border: none;
+    background: #4D5AE5;
+    border-radius: 4px;
+    outline: none;
+    margin-left: 24px;
+    cursor: pointer;
+    color: #FFFFFF;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-top: 16px;
+
+    transition: background-color var(--transition);
+
+   &:hover,
+   &:focus {
+        background-color: #404BBF;
+    }
+
+}
+
+
+
+
+//    MODAL CLOSE BUTTON
+
+.modal-close-btn {
+    position: absolute;
+    cursor: pointer;
+    top: 24px;
+    right: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    padding: 0;
+    background-color: #E7E9FC;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+
+    transition: background-color var(--transition),
+        fill var(--transition);
+
+
+    &:hover,
+    &:focus {
+        background-color: #404BBF;
+        fill: var(--white-color);
+    }
+}
+
+
+
+
+//MODAL FORM SUBMIT BUTTON
+
+
+.modal-form-submit {
+
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+
+    cursor: pointer;
+    color: var(--white-color);
+    display: flex;
+    background: var(--contrast-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+
+    flex-direction: row;
+    align-items: flex-start;
+    align-self: center;
+    padding: 16px 32px;
+    margin: auto;
+    max-height: 56px;
+    min-width: 169px;
+    justify-content: center;
+
+    border: none;
+    transition: background-color var(--transition),
+        box-shadow var(--transition),
+        border-radius var(--transition);
+
+    &:hover,
+    &:focus {
+        background-color: #404BBF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+    }
+}
+
