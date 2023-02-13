@@ -1,6 +1,7 @@
 //UTILS STYLES
 @import './utils/variables';
 @import './utils/v-hidden';
+@import './components/media@screen';
 
 //BASE STYLES
 @import './base/base';
@@ -13,6 +14,7 @@
 @import './components/logo';
 @import './components/buttons';
 @import './components/header';
+@import './components/mobile-menu';
 @import './components/hero';
 @import './components/benefits';
 @import './components/doing';
@@ -21,4 +23,5 @@
 @import './components/social-list';
 @import './components/footer';
 @import './components/portfolio';
-@import './components/modal'
+@import './components/modal';
+

@@ -23,10 +23,6 @@ body {
   background-color: var(--white-color);
 }
 
-.list {
-  list-style: none;
-}
-
 .link {
   text-decoration: none;
 }
@@ -40,28 +36,32 @@ p {
   margin-bottom: 0;
 }
 
-ul,
-ol {
+ul {
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
+  list-style: none;
 }
 
 img {
   display: block;
 }
 
-.container {
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-  width: 1158px;
-}
-
 .section {
   padding-top: 120px;
   padding-bottom: 120px;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media only screen and (max-width: 767px) {
+  .container {
+    width: 428px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .hero-title {
@@ -130,8 +130,8 @@ img {
   line-height: 1.33;
   text-transform: uppercase;
   color: var(--title-color);
-  margin-right: 70px;
   height: 100%;
+  margin-right: auto;
 }
 
 .footer-logo {
@@ -312,102 +312,93 @@ img {
   border-radius: 4px;
 }
 
-.page-header-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+@media only screen and (max-width: 767px) {
+  .menu {
+    display: none;
+  }
 }
 
-.page-header {
-  border-bottom: 1px solid #E7E9FC;
+@media only screen and (max-width: 767px) {
+  .contact-menu {
+    display: none;
+  }
 }
 
-.page-nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+@media only screen and (max-width: 767px) {
+  .mobile-menu-open {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    line-height: 0;
+  }
+}
+@media screen and (min-width: 768px) {
+  .mobile-menu-open {
+    display: none;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .mobile-menu-open {
+    display: none;
+  }
 }
 
-.menu {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  height: 100%;
+@media only screen and (max-width: 767px) {
+  .page-header-container {
+    display: none;
+  }
 }
 
-.contact-menu {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  gap: 40px;
-}
-
-.contact-link {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.menu-item:not(:last-child) {
-  margin-right: 40px;
-}
-
-.address-page {
-  margin-left: auto;
-}
-
-.menu-link {
-  font-weight: 500;
-  line-height: 1.5;
-  color: var(--title-color);
-  letter-spacing: 0.02cm;
-  -webkit-transition: color var(--transition);
-  transition: color var(--transition);
-  padding-top: 24px;
-  padding-bottom: 24px;
-  position: relative;
-  display: block;
-}
-.menu-link:hover, .menu-link:focus {
-  color: var(--contrast-color);
-}
-
-.contact-link {
-  letter-spacing: 0.02em;
-  font-style: normal;
-  line-height: 1.5;
-  color: var(--text-color);
-  -webkit-transition: color var(--transition);
-  transition: color var(--transition);
-}
-.contact-link:hover, .contact-link:focus {
-  color: var(--contrast-color);
-}
-
-.current {
-  color: #404BBF;
-}
-.current::after {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 4px;
-  border-radius: 2px;
-  background-color: #404BBF;
+.mobile-menu {
   position: absolute;
-  bottom: -1px;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  background-color: pink;
+  -webkit-transform: translateX(140%);
+          transform: translateX(140%);
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .mobile-menu {
+    display: none;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .mobile-menu {
+    display: none;
+  }
+}
+
+.mobile-menu-container {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media only screen and (max-width: 767px) {
+  .mobile-menu-close-btn {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    padding: 0;
+    background-color: #E7E9FC;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    -webkit-transition: background-color var(--transition), fill var(--transition);
+    transition: background-color var(--transition), fill var(--transition);
+  }
+  .mobile-menu-close-btn:hover, .mobile-menu-close-btn:focus {
+    background-color: #404BBF;
+    fill: var(--white-color);
+  }
 }
 
 .hero {

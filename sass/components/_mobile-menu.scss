@@ -1,0 +1,55 @@
+.mobile-menu{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+
+    background-color: pink;
+
+    transform: translateX(140%);
+    
+    
+
+    @include tablet-only{
+        display: none;
+    };
+
+    @include desktop{
+        display: none;
+    }
+}
+
+
+.mobile-menu-container{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.mobile-menu-close-btn{
+    @include mobile-only{
+        position: absolute;
+        top: 40px;
+        right: 40px;
+        width: 24px;
+        height: 24px;
+    
+        border-radius: 50%;
+        padding: 0;
+        background-color: #E7E9FC;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+    
+        transition: background-color var(--transition),
+            fill var(--transition);
+    
+    
+        &:hover,
+        &:focus {
+            background-color: #404BBF;
+            fill: var(--white-color);
+        }
+    }
+}
