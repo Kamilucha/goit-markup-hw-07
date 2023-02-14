@@ -25,10 +25,18 @@
     }
 }
 
-.mobile-menu-container{
-    
-}
+.mobile-header-container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 24px;
+    padding-bottom: 24px;
 
+    @include tablet {
+        display: none;
+    }
+
+}
 
 
 .page-header-container{
