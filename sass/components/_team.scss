@@ -15,15 +15,19 @@
 
     @include tablet-only{
         justify-content: center;
+
+
+        row-gap: 72px;
+        flex-basis: calc((100% - 2 * 24px) / 3);
     };
 }
 
-.team-list:nth-child(1),
-.team-list:nth-child(2) {
-    @include tablet-only {
-        margin-bottom: 72px;
-    }
-}
+// .team-list:nth-child(1),
+// .team-list:nth-child(2) {
+//     @include tablet-only {
+//         margin-bottom: 72px;
+//     }
+// }
 
 .card-text {
     padding-top: 32px;
