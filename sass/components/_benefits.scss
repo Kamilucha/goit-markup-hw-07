@@ -1,15 +1,59 @@
-.benefits {
-    padding-bottom: 0px;
+
+
+.benefits-list{
+    @include mobile-only{
+        display: flex;
+        flex-direction: column;
+
+        gap: 72px;
+    }
+
+    @include tablet-only{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: auto;
+        margin-right: auto;
+    
+        gap: 24px;
+    }
+
+    @include desktop{
+        display: flex;
+        column-gap: 24px;
+    }
 }
 
-.benefits-list {
-    display: flex;
-    column-gap: 24px;
+.benefits-list:nth-child(1),
+.benefits-list:nth-child(2){
+    @include tablet-only{
+        margin-bottom: 72px;
+    }
+}
+
+
+
+.benefits-item{
+
+    @include tablet-only{
+        width: 356px;
+    }
+}
+
+
+.benefits{
+
+        padding-bottom: 0;
 }
 
 .benefits-item {
-    flex-basis: calc((100% - 3 * 24px) / 4);
+    @include desktop{
+       flex-basis: calc((100% - 3 * 24px) / 4);
+    }
+    
 }
+
+
+
 
 .icon-div-benefits {
     display: flex;
@@ -19,5 +63,13 @@
     height: 112px;
     background-color: #F4F4FD;
     border-radius: 4px;
+
+    @include mobile-only{
+        display: none;
+    }
+
+    @include tablet-only{
+        display: none;
+    }
 
 }

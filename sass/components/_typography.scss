@@ -10,6 +10,12 @@
     max-width: 500px;
     margin: auto;
 
+    @include mobile-only{
+    font-size: 36px;
+    line-height: 1.11;
+    max-width: 320px;
+    }
+
 }
 
 .title {
@@ -23,13 +29,22 @@
 }
 
 .section-subtitle {
-
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     color: var(--title-color);
     margin-top: 8px;
+
+    @include mobile-only{
+        text-align: center;
+    }
+
+    @include desktop{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+    }
 }
 
 .footer-title {
@@ -61,6 +76,14 @@
     letter-spacing: 0.02em;
     color: var(--text-color);
     margin-top: 8px;
+
+    @include mobile-only{
+        font-weight: 500;
+    };
+
+    @include tablet-only{
+        font-weight: 500;
+    };
 
 }
 

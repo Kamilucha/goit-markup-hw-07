@@ -2,4 +2,22 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    @include mobile-only{
+        display: none;
+    };
+
+    @include tablet-only{
+        display: none;
+    };
+}
+
+.doing-title{
+    @include mobile-only{
+        display: none;
+    };
+
+    @include tablet-only{
+        display: none;
+    };
 }
