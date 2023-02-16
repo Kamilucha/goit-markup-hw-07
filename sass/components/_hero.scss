@@ -32,7 +32,7 @@
             max-width: 428px;
             background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                      rgba(46, 47, 66, 0.7)),
-                url(./images/hero-image/bgi-mobile.jpg);
+                url(/images/hero-image/bgi-mobile.jpg);
         };
 
         @include tablet-only{
@@ -40,7 +40,7 @@
             max-width: 768px;
             background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                     rgba(46, 47, 66, 0.7)),
-                url(./images/hero-image/bgi-tablet.jpg);
+                url(/images/hero-image/bgi-tablet.jpg);
         };
 
         @include desktop{
@@ -48,7 +48,7 @@
             max-width: 1440px;
             background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                     rgba(46, 47, 66, 0.7)),
-                url(./images/hero-image/people-office.jpg);
+                url(/images/hero-image/people-office.jpg);
         };
 }
 
@@ -59,7 +59,7 @@
         background-image: 
         linear-gradient(rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
-                url(./images/hero-image/bgi-mobile@2x.jpg);
+                url(/images/hero-image/bgi-mobile@2x.jpg);
     }
 }
 
@@ -70,7 +70,7 @@
         background-image: 
         linear-gradient(rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
-                url(./images/hero-image/bgi-tablet@2x.jpg);
+                url(/images/hero-image/bgi-tablet@2x.jpg);
     }
 }
 
@@ -81,7 +81,7 @@
         background-image: 
         linear-gradient(rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
-                url(./images/hero-image/bgi-desktop@2x.jpg);
+                url(/images/hero-image/bgi-desktop@2x.jpg);
     }
 }
 

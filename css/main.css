@@ -723,43 +723,43 @@ img {
   .hero-overlay {
     min-height: 432px;
     max-width: 428px;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(46, 47, 66, 0.7)), to(rgba(46, 47, 66, 0.7))), url(./images/hero-image/bgi-mobile.jpg);
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(./images/hero-image/bgi-mobile.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(46, 47, 66, 0.7)), to(rgba(46, 47, 66, 0.7))), url(/images/hero-image/bgi-mobile.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images/hero-image/bgi-mobile.jpg);
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .hero-overlay {
     min-height: 436px;
     max-width: 768px;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(46, 47, 66, 0.7)), to(rgba(46, 47, 66, 0.7))), url(./images/hero-image/bgi-tablet.jpg);
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(./images/hero-image/bgi-tablet.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(46, 47, 66, 0.7)), to(rgba(46, 47, 66, 0.7))), url(/images/hero-image/bgi-tablet.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images/hero-image/bgi-tablet.jpg);
   }
 }
 @media screen and (min-width: 1200px) {
   .hero-overlay {
     height: 600px;
     max-width: 1440px;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(46, 47, 66, 0.7)), to(rgba(46, 47, 66, 0.7))), url(./images/hero-image/people-office.jpg);
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(./images/hero-image/people-office.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(46, 47, 66, 0.7)), to(rgba(46, 47, 66, 0.7))), url(/images/hero-image/people-office.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images/hero-image/people-office.jpg);
   }
 }
 
 @media screen and (min-device-pixel-ratio: 2) and (max-width: 767px), (-webkit-min-device-pixel-ratio: 2) and (max-width: 767px), (min-resolution: 192dpi) and (max-width: 767px), (min-resolution: 2dppx) and (max-width: 767px) {
   .hero-overlay {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(46, 47, 66, 0.7)), to(rgba(46, 47, 66, 0.7))), url(./images/hero-image/bgi-mobile@2x.jpg);
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(./images/hero-image/bgi-mobile@2x.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(46, 47, 66, 0.7)), to(rgba(46, 47, 66, 0.7))), url(/images/hero-image/bgi-mobile@2x.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images/hero-image/bgi-mobile@2x.jpg);
   }
 }
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px), (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px), (min-resolution: 192dpi) and (min-width: 768px), (min-resolution: 2dppx) and (min-width: 768px) {
   .hero-overlay {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(46, 47, 66, 0.7)), to(rgba(46, 47, 66, 0.7))), url(./images/hero-image/bgi-tablet@2x.jpg);
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(./images/hero-image/bgi-tablet@2x.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(46, 47, 66, 0.7)), to(rgba(46, 47, 66, 0.7))), url(/images/hero-image/bgi-tablet@2x.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images/hero-image/bgi-tablet@2x.jpg);
   }
 }
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px), (-webkit-min-device-pixel-ratio: 2) and (min-width: 1200px), (min-resolution: 192dpi) and (min-width: 1200px), (min-resolution: 2dppx) and (min-width: 1200px) {
   .hero-overlay {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(46, 47, 66, 0.7)), to(rgba(46, 47, 66, 0.7))), url(./images/hero-image/bgi-desktop@2x.jpg);
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(./images/hero-image/bgi-desktop@2x.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(46, 47, 66, 0.7)), to(rgba(46, 47, 66, 0.7))), url(/images/hero-image/bgi-desktop@2x.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images/hero-image/bgi-desktop@2x.jpg);
   }
 }
 @media only screen and (max-width: 767px) {
