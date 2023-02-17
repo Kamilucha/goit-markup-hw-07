@@ -63,6 +63,12 @@
 
 
 .footer-social {
-    width: 208px;
-    margin-left: 120px;
+
+    @include mobile-only{
+        width: 208px;
+        margin-left: 120px;
+    }
+    
+
+
 }

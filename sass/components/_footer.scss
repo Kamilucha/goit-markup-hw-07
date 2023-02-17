@@ -18,7 +18,7 @@
         width: 268px;
         height: 72px;
         margin: auto;
-    }
+    };
 }
 
 .footer-container {
@@ -28,7 +28,18 @@
         flex-direction: column;
         align-items: center;
         justify-content: center
-    }
+    };
+
+    @include tablet-only{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        padding-left: 108px;
+
+    };
+
+    @include desktop{
+        justify-content: space-between;
+    };
 
 }
 
@@ -46,7 +57,7 @@
 
     @include mobile-only{
         width: 396px;
-        margin-right: 15px;
+
     }
 }
 
@@ -58,20 +69,30 @@
     display: flex;
 
     @include mobile-only {
-            display: block;
             flex-direction: column;
             flex-wrap: wrap;
         }
 }
 
 .footer-subscribe-form {
-    margin-left: 80px;
+
+    @include mobile-only{
+    width: 100%;
+    }
+
+    @include tablet-only{
+        margin-top: 72px;
+        
+    }
  
     
 
 }
 
 .subscribe-title{
+@include mobile-only{
     text-align: center;
-    justify-content: center;
+        justify-content: center;
+}
+
 }
