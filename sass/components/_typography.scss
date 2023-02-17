@@ -54,6 +54,12 @@
     letter-spacing: 0.02cm;
     font-size: 16px;
 
+    @include mobile-only{
+
+        margin-top: 72px;
+        margin-bottom: 16px;
+    }
+
 }
 
 .title-modal-form {

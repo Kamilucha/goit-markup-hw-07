@@ -113,6 +113,12 @@
         background-color: #404BBF;
     }
 
+    @include mobile-only{
+        margin: auto;
+        margin-top: 16px;
+        text-align: center;
+    }
+
 }
 
 

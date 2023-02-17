@@ -13,10 +13,22 @@
     color: #E7E9FC;
     max-width: 300px;
     margin-top: 16px;
+
+    @include mobile-only{
+        width: 268px;
+        height: 72px;
+        margin: auto;
+    }
 }
 
 .footer-container {
     display: flex;
+
+    @include mobile-only{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center
+    }
 
 }
 
@@ -31,6 +43,11 @@
     border-radius: 4px;
     padding-left: 16px;
     margin-top: 16px;
+
+    @include mobile-only{
+        width: 396px;
+        margin-right: 15px;
+    }
 }
 
 .footer-form-icon {
@@ -39,8 +56,22 @@
 
 .footer-form {
     display: flex;
+
+    @include mobile-only {
+            display: block;
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
 }
 
 .footer-subscribe-form {
     margin-left: 80px;
+ 
+    
+
+}
+
+.subscribe-title{
+    text-align: center;
+    justify-content: center;
 }

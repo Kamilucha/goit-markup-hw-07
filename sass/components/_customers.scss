@@ -2,6 +2,16 @@
     display: flex;
     justify-content: center;
     gap: 24px;
+
+    @include mobile-only{
+        flex-wrap: wrap;
+        row-gap: 72px;
+    }
+
+    @include tablet-only{
+        flex-wrap: wrap;
+        row-gap: 72px;
+    }
 }
 
 .customers-list-link {
