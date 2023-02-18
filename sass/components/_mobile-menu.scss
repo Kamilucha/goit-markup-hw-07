@@ -90,8 +90,10 @@
     gap: 40px;
 }
 
-  @media only screen and (max-width: 428px) {
-      @content;
+  @media only screen and (max-width: 420px) {
+      .menu-mobile-tel{
+
+      }
   }
 
 
