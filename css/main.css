@@ -730,6 +730,11 @@ img {
   color: var(--contrast-color);
 }
 
+@media only screen and (max-width: 420px) {
+  .menu-mobile-tel {
+    font-size: 25px;
+  }
+}
 .menu-mobile-mail {
   font-weight: 500;
   font-size: 20px;
@@ -752,6 +757,11 @@ img {
   margin-top: 48px;
 }
 
+@media only screen and (max-width: 390px) {
+  .social-list-mobile-menu {
+    gap: 35px;
+  }
+}
 @media only screen and (min-width: 428px) {
   .hero {
     background-color: var(--title-color);
