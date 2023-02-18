@@ -90,6 +90,10 @@
     gap: 40px;
 }
 
+  @media only screen and (max-width: 428px) {
+      @content;
+  }
+
 
 .menu-mobile-tel{
         font-weight: 600;
