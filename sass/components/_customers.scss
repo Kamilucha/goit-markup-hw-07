@@ -6,6 +6,7 @@
     @include mobile-only{
         flex-wrap: wrap;
         row-gap: 72px;
+        column-gap: 16px;
     }
 
     @include tablet-only{
@@ -25,7 +26,7 @@
     border-radius: 4px;
     fill: #8E8F99;
 
-    flex-basis: calc((100% - 16px) / 2);
+    
 
     transition: fill var(--transition),
         border var(--transition);
@@ -40,6 +41,6 @@
 
 
 .customers-list-item {
-    width: 168px;
-   
+    
+flex-basis: calc((100% - 16px) / 2);
 }
