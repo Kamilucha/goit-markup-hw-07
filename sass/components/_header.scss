@@ -6,7 +6,7 @@
     @include tablet{
      display: flex;
      align-items: center;
-    //  justify-content: space-between;
+
      height: 100%;
      gap: 40px;
      margin-right: auto;
@@ -47,6 +47,8 @@
         border: none;
         padding: 0;
         line-height: 0;
+        padding-top: 24px;
+        padding-bottom: 24px;
     }
     @include tablet{
         display: none;
@@ -60,8 +62,7 @@
     position: relative;
     display: flex;
     justify-content: space-between;
-    padding-top: 24px;
-    padding-bottom: 24px;
+
 
     @include tablet {
         display: none;
@@ -189,6 +190,7 @@
      &:focus {
              color: var(--contrast-color);
          }
+
  }
 
  .contact-link {
@@ -203,6 +205,10 @@
      &:focus {
     
              color: var(--contrast-color);
+         }
+
+         @include tablet-only{
+            font-size: 12px;
          }
  }
 

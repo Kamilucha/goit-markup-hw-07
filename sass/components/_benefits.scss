@@ -6,29 +6,25 @@
         flex-direction: column;
 
         gap: 72px;
-    }
+    };
 
     @include tablet-only{
         display: flex;
         flex-wrap: wrap;
         margin-left: auto;
         margin-right: auto;
-    
-        gap: 24px;
-    }
+
+        row-gap: 72px;
+        column-gap: 24px;
+    };
 
     @include desktop{
         display: flex;
         column-gap: 24px;
-    }
+    };
 }
 
-.benefits-list:nth-child(1),
-.benefits-list:nth-child(2){
-    @include tablet-only{
-        margin-bottom: 72px;
-    }
-}
+
 
 
 

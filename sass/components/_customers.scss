@@ -25,6 +25,8 @@
     border-radius: 4px;
     fill: #8E8F99;
 
+    flex-basis: calc((100% - 16px) / 2);
+
     transition: fill var(--transition),
         border var(--transition);
 
@@ -39,4 +41,5 @@
 
 .customers-list-item {
     width: 168px;
+   
 }

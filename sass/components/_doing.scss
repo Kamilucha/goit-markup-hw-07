@@ -22,3 +22,14 @@
     };
 }
 
+.doing{
+
+    @include mobile-only{
+        padding-top: 0;
+    };
+
+    @include tablet-only{
+        padding-top: 0;
+    };
+}
+

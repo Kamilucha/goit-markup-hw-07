@@ -17,6 +17,11 @@
     // margin-right: 70px;
     height: 100%;
     margin-right: auto;
+
+    @include mobile-only{
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
 }
    
 //    FOOTER LOGO

@@ -38,8 +38,7 @@
     @include mobile-only{
         justify-content: center;
         align-items: center;
-        margin-bottom: 72px;
-        margin-right: 110px;
+
     }
 }
 
@@ -66,7 +65,8 @@
 
     @include mobile-only{
         width: 208px;
-        margin-left: 120px;
+        
+      
     }
     
 
