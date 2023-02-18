@@ -156,7 +156,6 @@ img {
 }
 
 .title-modal-form {
-  height: 24px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -1129,6 +1128,8 @@ img {
 @media only screen and (max-width: 767px) {
   .footer-social {
     width: 208px;
+    margin-top: 72px;
+    margin-bottom: 72px;
   }
 }
 
@@ -1371,7 +1372,7 @@ img {
 
 @media only screen and (max-width: 428px) {
   .modal {
-    width: 100%;
+    width: 95%;
   }
 }
 .modal-form {
@@ -1507,9 +1508,6 @@ img {
 }
 
 .modal-form-check-desc {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
