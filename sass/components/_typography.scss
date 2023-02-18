@@ -17,7 +17,7 @@
     }
 
     @include tablet-only{
-        
+
     }
 
 
@@ -54,6 +54,21 @@
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
+    }
+}
+
+.card-portfolio .section-subtitle{
+    @include mobile-only{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        text-align: start;
+    }
+
+    @include tablet-only{
+        font-weight: 500;
+            font-size: 20px;
+            line-height: 1.2;
     }
 }
 
