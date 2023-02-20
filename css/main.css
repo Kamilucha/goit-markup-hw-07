@@ -233,6 +233,11 @@ img {
 .section-footer .logo {
   color: var(--white-color);
 }
+@media only screen and (max-width: 767px) {
+  .section-footer .logo {
+    padding: 0;
+  }
+}
 
 .modal-button {
   font-weight: 500;
@@ -808,7 +813,7 @@ img {
 @media only screen and (max-width: 767px) {
   .hero-overlay {
     min-height: 432px;
-    max-width: 428px;
+    width: 100%;
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(46, 47, 66, 0.7)), to(rgba(46, 47, 66, 0.7))), url(../images/hero-image/bgi-mobile.jpg);
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-image/bgi-mobile.jpg);
   }
@@ -816,7 +821,7 @@ img {
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .hero-overlay {
     min-height: 436px;
-    max-width: 768px;
+    width: 100%;
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(46, 47, 66, 0.7)), to(rgba(46, 47, 66, 0.7))), url(../images/hero-image/bgi-tablet.jpg);
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-image/bgi-tablet.jpg);
   }
@@ -1046,6 +1051,9 @@ img {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     row-gap: 72px;
+    -webkit-column-gap: 24px;
+       -moz-column-gap: 24px;
+            column-gap: 24px;
   }
 }
 
@@ -1071,10 +1079,21 @@ img {
   fill: #404BBF;
   border: 1px solid #404BBF;
 }
+@media only screen and (max-width: 767px) {
+  .customers-list-link {
+    width: 100%;
+  }
+}
 
 .customers-list-item {
   -ms-flex-preferred-size: calc((100% - 16px) / 2);
       flex-basis: calc((100% - 16px) / 2);
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .customers-list-item {
+    -ms-flex-preferred-size: calc((100% - 16px) / 4);
+        flex-basis: calc((100% - 16px) / 4);
+  }
 }
 
 .social-list {

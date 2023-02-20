@@ -40,4 +40,8 @@
 
 .section-footer .logo {
     color: var(--white-color);
+
+    @include mobile-only{
+        padding: 0;
+    }
 }

@@ -29,7 +29,7 @@
 
         @include mobile-only {
             min-height: 432px;
-            max-width: 428px;
+            width: 100%;
             background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                      rgba(46, 47, 66, 0.7)),
                 url(../images/hero-image/bgi-mobile.jpg);
@@ -37,7 +37,7 @@
 
         @include tablet-only{
             min-height: 436px;
-            max-width: 768px;
+            width: 100%;
             background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                     rgba(46, 47, 66, 0.7)),
                 url(../images/hero-image/bgi-tablet.jpg);

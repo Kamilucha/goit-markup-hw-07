@@ -12,6 +12,8 @@
     @include tablet-only{
         flex-wrap: wrap;
         row-gap: 72px;
+        column-gap: 24px;
+        
     }
 }
 
@@ -31,16 +33,28 @@
     transition: fill var(--transition),
         border var(--transition);
 
+
+
         &:hover,
         &:focus {
                 fill: #404BBF;
                 border: 1px solid #404BBF;
         
             }
+
+            @include mobile-only{
+                width: 100%;
+            }
+
+     
 }
 
 
 .customers-list-item {
     
 flex-basis: calc((100% - 16px) / 2);
+
+@include tablet-only{
+    flex-basis: calc((100% - 16px) / 4);
+}
 }
